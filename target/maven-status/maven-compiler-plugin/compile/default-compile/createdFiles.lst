@@ -1,0 +1,6 @@
+table\Product.class
+dao\Dao.class
+jdbc\Connector.class
+jdbc\Queries.class
+dao\ProductDAO.class
+main\Main.class
