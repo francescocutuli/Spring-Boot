@@ -3,17 +3,18 @@
   <groupId>com.final</groupId>
   <artifactId>final</artifactId>
   <version>1.0.0</version>
+	
   <properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>21</java.version>
-		<jupiter.version>5.9.1</jupiter.version>
-		<vertx.version>4.4.1</vertx.version>
-		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-		<maven-shade-plugin.version>3.2.4</maven-shade-plugin.version>
-		<jackson.version>2.14.2</jackson.version>
-		<joschi.version>2.12.5</joschi.version>
-    <slf4j-version>2.0.6</slf4j-version>
-	</properties>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<java.version>21</java.version>
+	<jupiter.version>5.9.1</jupiter.version>
+	<vertx.version>4.4.1</vertx.version>
+	<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+	<maven-shade-plugin.version>3.2.4</maven-shade-plugin.version>
+	<jackson.version>2.14.2</jackson.version>
+	<joschi.version>2.12.5</joschi.version>
+    	<slf4j-version>2.0.6</slf4j-version>
+   </properties>
 
     <dependencies>
         <dependency>
@@ -43,9 +44,9 @@
             <version>4.13.1</version>
         </dependency>
         <dependency>
-    	<groupId>org.openapitools</groupId>
-    	<artifactId>openapi-generator</artifactId>
-    <version>7.8.0</version>
+    	    <groupId>org.openapitools</groupId>
+    	    <artifactId>openapi-generator</artifactId>
+            <version>7.8.0</version>
 	</dependency>
 	<dependency>
     <groupId>com.fasterxml.jackson.jaxrs</groupId>
